@@ -1,0 +1,21 @@
+@import '../../assets/scss/variable.scss';
+.modal_wx {
+  h2 {
+    color: $main-text-color;
+  }
+  .dec {
+    margin: 0.2rem 0 0;
+    color: $grep-text-color;
+  }
+  .address {
+    margin: 0.32rem 0 0;
+    .ant-input {
+      color: $main-text-color;
+    }
+  }
+  .tips {
+    margin-bottom: 0.12rem;
+    color: $grep-text-color;
+    font-size: $fontSize_12;
+  }
+}

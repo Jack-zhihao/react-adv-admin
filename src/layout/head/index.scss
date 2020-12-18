@@ -1,0 +1,19 @@
+@import '../../assets/scss/variable.scss';
+.ant-drawer-content-wrapper {
+  .ant-drawer-header {
+    .ant-drawer-close {
+      .anticon {
+        vertical-align: middle;
+      }
+    }
+  }
+}
+.system-tool {
+  .ant-btn {
+    width: 100%;
+    height: 0.4rem;
+    text-align: left;
+    padding: 0.1rem 0.24rem;
+    color: $main-text-color;
+  }
+}

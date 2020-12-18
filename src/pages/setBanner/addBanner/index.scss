@@ -1,0 +1,19 @@
+@import '../../../assets/scss/variable.scss';
+.contant {
+  width: 60%;
+  margin: 0 auto;
+  .title {
+    margin-top: 0.24rem;
+  }
+  .dec {
+    margin-top: 0.24rem;
+  }
+  >p {
+    color: $grep-text-color;
+    margin: 0.16rem 0 0.02rem;
+  }
+}
+.ant-upload.ant-upload-select-picture-card {
+  width: 2.2rem;
+  height: 2.2rem;
+}

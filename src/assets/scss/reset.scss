@@ -1,0 +1,67 @@
+@import './variable.scss';
+
+// 重置表格样式
+.ant-table {
+  font-size: $fontSize_14;
+}
+.ant-table-thead > tr > th {
+  color: $grep-text-color;
+  padding: 0.08rem;
+  background: #ececec;
+  font-size: $fontSize_12;
+} 
+.ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+  padding: 0.08rem;
+  color: $main-text-color;
+  font-size: $fontSize_12;
+  .ant-btn {
+    font-size: $fontSize_12
+  }
+}
+.ant-table-pagination.ant-pagination {
+  margin: 0.16rem 0 0;
+}
+
+.ant-btn {
+  border-radius: 0.04rem;
+  font-size: $fontSize_14;
+}
+
+.ant-btn-link {
+  padding: 0;
+  margin-right: 0.1rem;    
+  line-height: 1;
+  height: auto;
+}
+
+.ant-table-wrapper {
+  margin-top: 0.24rem;
+}
+
+// 右侧浮动框
+.re-right-ant-drawer {
+  .ant-drawer-body {
+    padding: 0;
+  }
+}
+
+// 弹出框--confirm
+.ant-modal-confirm {
+  .ant-modal-content {
+    border-radius: 0.04rem;
+    .ant-modal-body {
+      padding: 0.16rem;
+    }
+  }
+}
+
+// 弹出框 重置 样式  添加类名: model-default-style
+.model-default-style {
+  .ant-modal-body {
+    padding: 0.16rem;
+  }
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  background-color: #fff !important;
+}

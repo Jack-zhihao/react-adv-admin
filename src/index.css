@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'mainFont';
+  src: url('http://resources.xuekuibang.com/xkb_admin_test/fonts/DINNextW1G/DINNextW1G-Regular.otf')
+}
+body {
+  font-family: 'mainFont';
+}

@@ -1,0 +1,68 @@
+@import '../assets/scss/variable.scss';
+.re-layout {
+  min-height: 100vh;
+  .ant-layout-header {
+    background-color: $white;
+    padding: 0 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    .username {
+      font-size: $fontSize_16;
+      vertical-align: middle;
+      line-height: 3;
+      color: $main-text-color;
+      font-weight: 600;
+      margin-left: 0.04rem;
+    }
+  }
+  .re-sider {
+    background: #fff;
+    .sider-top {
+      height: 0.64rem;
+      padding: 0.07rem 0.24rem;
+      display: flex;
+      h2 {
+        font-size: $fontSize_16;
+        vertical-align: middle;
+        line-height: 3;
+        color: $main-text-color;
+        font-weight: 600;
+      }
+    }
+    .ant-menu {
+      .ant-menu-item {
+        margin: 0;
+      }
+    }
+  }
+  .ant-layout-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0.12rem;
+    >div {
+      background-color: $white;
+      border-radius: 0.08rem;
+      overflow: hidden;
+      padding: 0.12rem 0.2rem 0.16rem;
+      .pane-tool {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0.12rem;
+        border-bottom: 1px solid #f7f7f7;
+        h3 {
+          color: $main-text-color;
+          font-size: $fontSize_16;
+          line-height: 2;
+        }
+      }
+    }
+  }
+  .ant-layout-footer {
+    padding: 0.1rem;
+    background-color: $white;
+    .right {
+      font-size: $fontSize_12;
+      color: $grep-text-color;
+    }
+  }
+}
